@@ -17,9 +17,10 @@ while num_mistakes < 9:
         print("false")
         num_mistakes += 1
         turtle.score = turtle.score-1
-        print(turtle.score)
+        print("you have " +str(turtle.score)+ " guesses left" )
     if num_mistakes == 9:
         print("You lose!")
         quit()
+        
     
                       
